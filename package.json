@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "postcss style.css -o dist/style.css",
+    "watch": "postcss style.css -o dist/style.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "postcss-cli": "^11.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.3.0"
+  }
+}

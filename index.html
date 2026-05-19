@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="grid grid-cols-12 h-screen bg-white">
+      <!--Mobile NavBar-->
+      <div
+        class="w-full bg-[#1F7A4D] sm:hidden rounded-tl-3xl rounded-tr-3xl h-16 bottom-0 fixed"
+      >
+        <div
+          class="flex justify-around text-white text-3xl items-center h-full"
+        >
+          <div>
+            <div class="text-center scale-110">
+              <iconify-icon icon="material-symbols:home-rounded"></iconify-icon>
+            </div>
+          </div>
+
+          <a href="tasbeh.html"
+            ><div>
+              <iconify-icon
+                class="text-gray-400"
+                icon="hugeicons:tasbih"
+              ></iconify-icon></div
+          ></a>
+
+          <div>
+            <iconify-icon
+              class="text-gray-400"
+              icon="majesticons:book-open"
+            ></iconify-icon>
+          </div>
+
+          <a href="AsmaulHusna.html"
+            ><div>
+              <iconify-icon
+                class="text-gray-400"
+                icon="iconoir:flower"
+              ></iconify-icon></div
+          ></a>
+
+          <div>
+            <iconify-icon
+              class="text-gray-400"
+              icon="fluent:quiz-28-filled"
+            ></iconify-icon>
+          </div>
+        </div>
+      </div>
+
+      <!--Left Side NavBar-->
+
+      <div
+        class="sm:w-52 left-0 hidden top-0 fixed h-screen bg-white shadow-md"
+      >
+        <div class="flex items-center gap-3 mt-4 ml-4">
+          <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
+          <h1 class="text-2xl text-[#1F7A4D]">DeenHub</h1>
+        </div>
+
+        <div class="flex flex-col mt-10 ml-4 gap-4">
+          <div class="flex text-[#1F7A4D] items-center gap-3">
+            <iconify-icon
+              class="text-2xl"
+              icon="material-symbols:home-rounded"
+            ></iconify-icon>
+            <p class="text-xl">Home</p>
+          </div>
+
+          <div class="flex text-[#1F7A4D] items-center gap-3">
+            <iconify-icon
+              class="text-2xl"
+              icon="hugeicons:tasbih"
+            ></iconify-icon>
+            <p class="text-xl">Tasbih</p>
+          </div>
+
+          <div class="flex text-[#1F7A4D] items-center gap-3">
+            <iconify-icon
+              class="text-2xl"
+              icon="majesticons:book-open"
+            ></iconify-icon>
+            <p class="text-xl">Hadith</p>
+          </div>
+
+          <div class="flex text-[#1F7A4D] items-center gap-3">
+            <iconify-icon class="text-2xl" icon="iconoir:flower"></iconify-icon>
+            <p class="text-xl">Asmaul Husna</p>
+          </div>
+
+          <div class="flex text-[#1F7A4D] items-center gap-3">
+            <iconify-icon
+              class="text-2xl"
+              icon="fluent:quiz-28-filled"
+            ></iconify-icon>
+            <p class="text-xl">Quiz</p>
+          </div>
+
+          <div class="flex text-[#1F7A4D] items-center gap-3">
+            <iconify-icon class="text-2xl" icon="mdi:about"></iconify-icon>
+            <p class="text-xl">About</p>
+          </div>
+        </div>
+      </div>
+
+      <!--Right Side Div Main View-->
+
+      <div class="sm:ml-52 col-span-12">
+        <div class="sm:h-20 flex items-center justify-between pr-10 shadow-sm">
+          <div class="flex py-4 sm:hidden items-center gap-3 mt-4 ml-4">
+            <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
+            <h1 class="text-2xl text-[#1F7A4D]">DeenHub</h1>
+          </div>
+
+          <a href=""
+            ><div>
+              <iconify-icon
+                class="text-2xl text-[#1F7A4D]"
+                icon="mdi:about"
+              ></iconify-icon></div
+          ></a>
+        </div>
+        <div class="p-4">
+          <div class="sm:flex items-center justify-between p-4">
+            <p class="sm:text-2xl hidden sm:block font-semibold">
+              Prayer Times
+            </p>
+
+            <div class="flex gap-3">
+              <div
+                class="sm:flex h-24 hidden gap-5 px-6 py-2 items-center rounded-md shadow-sm"
+              >
+                <iconify-icon
+                  class="sm:text-xl text-[#1F7A4D]"
+                  icon="iconoir:clock"
+                >
+                </iconify-icon>
+                <div>
+                  <p id="time" class="font-semibold text-[#1F7A4D]">Date</p>
+                </div>
+              </div>
+
+              <div
+                class="flex w-full gap-4 px-6 py-2 items-center rounded-md shadow-sm"
+              >
+                <iconify-icon class="sm:text-xl text-[#1F7A4D]" icon="uiw:date">
+                </iconify-icon>
+                <div>
+                  <p class="font-semibold text-[#1F7A4D]">Date</p>
+                  <p class="adDate text-[#1F7A4D]">2025/4/4</p>
+                  <p class="hrDate text-[#1F7A4D]">2025/4/4</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid md:gap-2 md:grid-cols-4">
+            <!--Child 1-->
+            <div class="md:col-span-3">
+              <div class="w-full rounded-md h-full">
+                <table
+                  class="w-full h-full shadow-md rounded-xl table-fixed text-center"
+                >
+                  <thead
+                    class="h-20 bg-[#1F7A4D] text-white rounded-md font-normal"
+                  >
+                    <tr>
+                      <th class="rounded-tl-md">Time</th>
+                      <th class="rounded-tr-md">Adhan</th>
+                    </tr>
+                  </thead>
+
+                  <tbody class="tbd"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <!--Child 2-->
+
+            <div class="h-full hidden sm:block rounded-md shadow-md">
+              <div
+                class="flex text-[#1F7A4D] border-b border-gray-300 justify-between p-4"
+              >
+                <p>Questions</p>
+                <span>1/10</span>
+              </div>
+
+              <div class="p-4">
+                <h1 class="text-lg">Who is the Creator of Universe ?</h1>
+
+                <div class="grid grid-cols-1 mt-8 gap-3">
+                  <div
+                    class="py-2 rounded-md cursor-pointer hover:bg-[#1f7a4c58] hover:text-white shadow-sm px-4"
+                  >
+                    A : Allah
+                  </div>
+
+                  <div
+                    class="py-2 rounded-md cursor-pointer hover:bg-[#1f7a4c58] hover:text-white shadow-sm px-4"
+                  >
+                    A : Allah
+                  </div>
+
+                  <div
+                    class="py-2 rounded-md cursor-pointer hover:bg-[#1f7a4c58] hover:text-white shadow-sm px-4"
+                  >
+                    A : Allah
+                  </div>
+
+                  <div
+                    class="py-2 rounded-md cursor-pointer hover:bg-[#1f7a4c58] hover:text-white shadow-sm px-4"
+                  >
+                    A : Allah
+                  </div>
+
+                  <button
+                    class="shadow-sm py-2 bg-[#1F7A4D] rounded-md text-white"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
