@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
           lon = longitude;
           lat = latitude;
 
-          console.log(lon, lat);
           Adhan();
         },
         (error) => {
@@ -36,6 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const AdhanUrl = `https://api.aladhan.com/v1/timings?latitude=${lat}&longitude=${lon}&method=2`;
       const res = await fetch(AdhanUrl);
       AdhanData = await res.json();
+
+      console.log(AdhanData);
 
       const time = AdhanData.data.timings;
 
@@ -137,12 +138,14 @@ document.addEventListener("DOMContentLoaded", () => {
       div.innerHTML = `<div
             class="shadow-md h-44 p-4 rounded-md grid grid-cols-1 transition-transform ease-in-out hover:scale-105 duration-700 cursor-pointer hover:bg-[#1f7a4c3f]"
           >
-            <h1 class="sm:text-2xl">${item["arabic"]}</h1>
+            <h1 class="text-3xl font-noto">${item["arabic"]}</h1>
             <h1 class="sm:text-xl">${item["transliteration"]}</h1>
             <h1 class="sm:text-lg">${item["meaning"]}</h1>
           </div>`;
 
-      ASmainDiv.append(div);
+      if (div) {
+        ASmainDiv.append(div);
+      }
     }
   };
 

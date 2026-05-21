@@ -24,12 +24,14 @@
               </div></div
           ></a>
 
-          <div>
-            <iconify-icon
-              class="scale-120"
-              icon="hugeicons:tasbih"
-            ></iconify-icon>
-          </div>
+          <a href="tasbeh.html">
+            <div>
+              <iconify-icon
+                class="text-gray-400"
+                icon="hugeicons:tasbih"
+              ></iconify-icon>
+            </div>
+          </a>
 
           <div>
             <iconify-icon
@@ -39,27 +41,23 @@
           </div>
 
           <a href="AsmaulHusna.html"
-            ><div>
-              <iconify-icon
-                class="text-gray-400"
-                icon="iconoir:flower"
-              ></iconify-icon></div
+            ><div class="text-center text-gray-400">
+              <iconify-icon icon="iconoir:flower"></iconify-icon></div
           ></a>
 
-          <a href="quiz.html"
-            ><div>
-              <iconify-icon
-                class="text-gray-400"
-                icon="fluent:quiz-28-filled"
-              ></iconify-icon></div
-          ></a>
+          <div>
+            <iconify-icon
+              class="scale-120"
+              icon="fluent:quiz-28-filled"
+            ></iconify-icon>
+          </div>
         </div>
       </div>
 
       <!--Left Side NavBar-->
 
       <div
-        class="sm:w-52 left-0 top-0 hidden sm:fixed h-screen bg-white shadow-md"
+        class="sm:w-52 left-0 top-0 sm:block hidden sm:fixed h-screen bg-white shadow-md"
       >
         <div class="flex items-center gap-3 mt-4 ml-4">
           <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
@@ -129,28 +127,45 @@
           ></a>
         </div>
 
-        <div class="flex items-center justify-center h-[80%]">
-          <div class="grid text-center grid-cols-1">
-            <div>
-              <iconify-icon
-                id="numUP"
-                class="text-5xl text-[#1F7A4D]"
-                icon="mingcute:up-line"
-              ></iconify-icon>
+        <div class="p-4">
+          <div
+            class="w-full flex justify-between rounded-md items-center p-4 shadow-md h-16"
+          >
+            <div class="flex gap-3">
+              <iconify-icon class="text-xl" icon="noto:trophy"></iconify-icon>
+              <p>120</p>
             </div>
-
-            <div
-              class="p-5 m-7 w-36 rounded-lg text-4xl bg-[#1F7A4D] text-white font-bold shadow-lg shadow-[#1F7A4D] flex items-center justify-center"
-            >
-              <p id="countnum">100</p>
+            <div class="w-36 text-center">
+              <p><span>1</span> of 20</p>
+              <!-- Track Background -->
+              <div class="h-3 bg-slate-200 rounded-full overflow-hidden">
+                <!-- Filled Progress Line -->
+                <!-- Update the style="width: XX%" dynamically with JavaScript -->
+                <div
+                  class="h-full w-full bg-emerald-500 transition-all duration-300 ease-out"
+                  style="width: 10%"
+                ></div>
+              </div>
             </div>
-
-            <div>
+            <div class="flex items-center gap-3">
               <iconify-icon
-                id="numDown"
-                class="text-5xl text-[#1F7A4D]"
-                icon="mingcute:down-line"
+                class="text-xl text-[#1F7A4D]"
+                icon="icon-park-outline:time"
               ></iconify-icon>
+              <p>00:25</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-4">
+          <div class="w-full h-48 rounded-md shadow-md border-[#1F7A4D] border">
+            <div class="flex justify-center relative">
+              <iconify-icon
+                class="absolute text-6xl -top-7.5 text-[#1F7A4D]"
+                icon="streamline-sharp:octagram-shape-solid"
+              >
+                <p>4</p>
+              </iconify-icon>
             </div>
           </div>
         </div>

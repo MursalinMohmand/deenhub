@@ -24,12 +24,14 @@
               </div></div
           ></a>
 
-          <div>
-            <iconify-icon
-              class="scale-120"
-              icon="hugeicons:tasbih"
-            ></iconify-icon>
-          </div>
+          <a href="tasbeh.html">
+            <div>
+              <iconify-icon
+                class="text-gray-400"
+                icon="hugeicons:tasbih"
+              ></iconify-icon>
+            </div>
+          </a>
 
           <div>
             <iconify-icon
@@ -39,11 +41,8 @@
           </div>
 
           <a href="AsmaulHusna.html"
-            ><div>
-              <iconify-icon
-                class="text-gray-400"
-                icon="iconoir:flower"
-              ></iconify-icon></div
+            ><div class="text-center text-gray-400">
+              <iconify-icon icon="iconoir:flower"></iconify-icon></div
           ></a>
 
           <a href="quiz.html"
@@ -59,7 +58,7 @@
       <!--Left Side NavBar-->
 
       <div
-        class="sm:w-52 left-0 top-0 hidden sm:fixed h-screen bg-white shadow-md"
+        class="sm:w-52 left-0 top-0 sm:block hidden sm:fixed h-screen bg-white shadow-md"
       >
         <div class="flex items-center gap-3 mt-4 ml-4">
           <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
@@ -104,10 +103,12 @@
             <p class="text-xl">Quiz</p>
           </div>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon class="text-2xl" icon="mdi:about"></iconify-icon>
-            <p class="text-xl">About</p>
-          </div>
+          <a class="sm:hidden" href=""
+            ><div class="flex text-[#1F7A4D] items-center gap-3">
+              <iconify-icon class="text-2xl" icon="mdi:about"></iconify-icon>
+              <p class="text-xl">About</p>
+            </div></a
+          >
         </div>
       </div>
 
@@ -120,39 +121,13 @@
             <h1 class="text-2xl text-[#1F7A4D]">DeenHub</h1>
           </div>
 
-          <a class="sm:hidden" href="about.html"
+          <a href=""
             ><div>
               <iconify-icon
                 class="text-2xl text-[#1F7A4D]"
                 icon="mdi:about"
               ></iconify-icon></div
           ></a>
-        </div>
-
-        <div class="flex items-center justify-center h-[80%]">
-          <div class="grid text-center grid-cols-1">
-            <div>
-              <iconify-icon
-                id="numUP"
-                class="text-5xl text-[#1F7A4D]"
-                icon="mingcute:up-line"
-              ></iconify-icon>
-            </div>
-
-            <div
-              class="p-5 m-7 w-36 rounded-lg text-4xl bg-[#1F7A4D] text-white font-bold shadow-lg shadow-[#1F7A4D] flex items-center justify-center"
-            >
-              <p id="countnum">100</p>
-            </div>
-
-            <div>
-              <iconify-icon
-                id="numDown"
-                class="text-5xl text-[#1F7A4D]"
-                icon="mingcute:down-line"
-              ></iconify-icon>
-            </div>
-          </div>
         </div>
       </div>
     </div>
