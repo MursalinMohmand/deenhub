@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const crq = document.querySelector("#crq");
   const progressBar = document.querySelector("#progressBar");
 
-  const QuizURL = "/clean_islamic_quiz_dataset.json";
+  const QuizURL = "/clean_islamic_quiz_dataset.json" + Date.now();
 
   let quizData = [];
   let currentIndex = 0;
