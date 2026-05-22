@@ -1,0 +1,1133 @@
+[
+  {
+    "id": 1,
+    "category": "Quran",
+    "question": "What is the first Surah of the Quran?",
+    "options": ["Al-Baqarah", "Al-Fatiha", "Yaseen", "Ikhlas"],
+    "answer": "Al-Fatiha"
+  },
+  {
+    "id": 2,
+    "category": "Prophets",
+    "question": "Which Prophet is known for his immense patience during a severe, long-term illness?",
+    "options": [
+      "Prophet Ayyub (Job)",
+      "Prophet Yunus (Jonah)",
+      "Prophet Yaqub (Jacob)",
+      "Prophet Dawud (David)"
+    ],
+    "answer": "Prophet Ayyub (Job)"
+  },
+  {
+    "id": 3,
+    "category": "Islam",
+    "question": "How many pillars of Islam are there?",
+    "options": ["Six", "Four", "Five", "Seven"],
+    "answer": "Five"
+  },
+  {
+    "id": 4,
+    "category": "Salah",
+    "question": "Which mandatory daily prayer consists of three Rak'ah in total?",
+    "options": ["Asr", "Maghrib", "Fajr", "Isha"],
+    "answer": "Maghrib"
+  },
+  {
+    "id": 5,
+    "category": "Ramadan",
+    "question": "In which Islamic lunar month is the annual fast prescribed for Muslims?",
+    "options": ["Shaban", "Ramadan", "Shawwal", "Muharram"],
+    "answer": "Ramadan"
+  },
+  {
+    "id": 6,
+    "category": "Hajj",
+    "question": "What is the name of the valley where pilgrims spend the 9th day of Dhul-Hijjah, marking the most critical ritual of Hajj?",
+    "options": ["Mina", "Muzdalifah", "Arafat", "Marwah"],
+    "answer": "Arafat"
+  },
+  {
+    "id": 7,
+    "category": "History",
+    "question": "Who was the first Caliph of Islam after the passing of Prophet Muhammad (PBUH)?",
+    "options": [
+      "Umar ibn al-Khattab",
+      "Abu Bakr al-Siddiq",
+      "Uthman ibn Affan",
+      "Ali ibn Abi Talib"
+    ],
+    "answer": "Abu Bakr al-Siddiq"
+  },
+  {
+    "id": 8,
+    "category": "Hadith",
+    "question": "Which prominent scholar compiled the Hadith collection known as 'Al-Jami' al-Sahih', widely considered the most authentic book after the Quran?",
+    "options": ["Imam Muslim", "Imam Malik", "Imam Al-Bukhari", "Imam Ahmad"],
+    "answer": "Imam Al-Bukhari"
+  },
+  {
+    "id": 9,
+    "category": "Companions",
+    "question": "Who was chosen as the first Muadhin (caller to prayer) in Islam due to his beautiful voice?",
+    "options": [
+      "Bilal ibn Rabah",
+      "Zayd ibn Harithah",
+      "Salman al-Farsi",
+      "Ammar ibn Yasir"
+    ],
+    "answer": "Bilal ibn Rabah"
+  },
+  {
+    "id": 10,
+    "category": "Fiqh basics",
+    "question": "What is the term used for the minor ritual purification required before performing Salah?",
+    "options": ["Ghusl", "Wudu", "Tayammum", "Istinja"],
+    "answer": "Wudu"
+  },
+  {
+    "id": 11,
+    "category": "Quran",
+    "question": "Which Surah in the Quran is the longest?",
+    "options": ["Al-Imran", "Al-Ma'idah", "Al-Baqarah", "An-Nisa"],
+    "answer": "Al-Baqarah"
+  },
+  {
+    "id": 12,
+    "category": "Prophets",
+    "question": "Which Prophet was given the miracle of controlling the wind and speaking to animals?",
+    "options": [
+      "Prophet Sulaiman (Solomon)",
+      "Prophet Yusuf (Joseph)",
+      "Prophet Musa (Moses)",
+      "Prophet Ibrahim (Abraham)"
+    ],
+    "answer": "Prophet Sulaiman (Solomon)"
+  },
+  {
+    "id": 13,
+    "category": "Islam",
+    "question": "What is the Arabic term for the absolute oneness and uniqueness of Allah?",
+    "options": ["Shirk", "Tawheed", "Ihsan", "Taqwa"],
+    "answer": "Tawheed"
+  },
+  {
+    "id": 14,
+    "category": "Salah",
+    "question": "What is the direction facing the Kaaba in Mecca called, which Muslims must face during prayer?",
+    "options": ["Mihrab", "Minbar", "Qiblah", "Sujood"],
+    "answer": "Qiblah"
+  },
+  {
+    "id": 15,
+    "category": "Ramadan",
+    "question": "What is the name of the night in Ramadan that is described as being better than a thousand months?",
+    "options": [
+      "Laylatul Qadr",
+      "Laylatul Barat",
+      "Laylatul Miraj",
+      "Eid night"
+    ],
+    "answer": "Laylatul Qadr"
+  },
+  {
+    "id": 16,
+    "category": "Hajj",
+    "question": "How many times do pilgrims walk around the Kaaba during the Tawaf?",
+    "options": ["Five times", "Seven times", "Ten times", "Three times"],
+    "answer": "Seven times"
+  },
+  {
+    "id": 17,
+    "category": "History",
+    "question": "In which year of the Hijri calendar did the Battle of Badr take place?",
+    "options": ["1 AH", "2 AH", "3 AH", "5 AH"],
+    "answer": "2 AH"
+  },
+  {
+    "id": 18,
+    "category": "Hadith",
+    "question": "What is the Arabic word for the chain of narrators that verifies the authenticity of a Hadith?",
+    "options": ["Matn", "Isnad", "Sunnah", "Fiqh"],
+    "answer": "Isnad"
+  },
+  {
+    "id": 19,
+    "category": "Companions",
+    "question": "Which companion of the Prophet was known as 'Al-Faruq' (The one who distinguishes between right and wrong)?",
+    "options": [
+      "Abu Bakr",
+      "Umar ibn al-Khattab",
+      "Uthman ibn Affan",
+      "Ali ibn Abi Talib"
+    ],
+    "answer": "Umar ibn al-Khattab"
+  },
+  {
+    "id": 20,
+    "category": "Fiqh basics",
+    "question": "What is the ruling on actions that are explicitly forbidden in Islamic law, such as consuming alcohol?",
+    "options": ["Makruh", "Haram", "Mubah", "Wajib"],
+    "answer": "Haram"
+  },
+  {
+    "id": 21,
+    "category": "Quran",
+    "question": "Which Surah does not begin with the Basmalah ('Bismillahir Rahmanir Rahim')?",
+    "options": [
+      "Surah At-Tawbah",
+      "Surah An-Naml",
+      "Surah Al-Kahf",
+      "Surah Al-Mulk"
+    ],
+    "answer": "Surah At-Tawbah"
+  },
+  {
+    "id": 22,
+    "category": "Prophets",
+    "question": "To which Prophet was the Torah (Tawrat) revealed?",
+    "options": [
+      "Prophet Isa (Jesus)",
+      "Prophet Musa (Moses)",
+      "Prophet Dawud (David)",
+      "Prophet Ibrahim (Abraham)"
+    ],
+    "answer": "Prophet Musa (Moses)"
+  },
+  {
+    "id": 23,
+    "category": "Islam",
+    "question": "How many articles of faith (Iman) are there in mainstream Islamic theology?",
+    "options": ["Five", "Six", "Seven", "Four"],
+    "answer": "Six"
+  },
+  {
+    "id": 24,
+    "category": "Salah",
+    "question": "What is the name of the voluntary prayer performed late at night, highly recommended by the Sunnah?",
+    "options": ["Tahajjud", "Duha", "Ishraq", "Witr"],
+    "answer": "Tahajjud"
+  },
+  {
+    "id": 25,
+    "category": "Ramadan",
+    "question": "What is the special voluntary prayer performed in congregation every night during the month of Ramadan?",
+    "options": ["Tahajjud", "Tarawih", "Kusuf", "Istisqa"],
+    "answer": "Tarawih"
+  },
+  {
+    "id": 26,
+    "category": "Hajj",
+    "question": "What is the name of the state of spiritual purity and the specific plain clothing worn by pilgrims during Hajj?",
+    "options": ["Kafan", "Ihram", "Jubbah", "Abaya"],
+    "answer": "Ihram"
+  },
+  {
+    "id": 27,
+    "category": "History",
+    "question": "What was the modern name of the city originally called Yathrib, to which the early Muslim community migrated?",
+    "options": ["Mecca", "Medina", "Taif", "Jerusalem"],
+    "answer": "Medina"
+  },
+  {
+    "id": 28,
+    "category": "Hadith",
+    "question": "Which female companion and wife of the Prophet narrated the highest number of Hadiths?",
+    "options": [
+      "Khadijah bint Khuwaylid",
+      "Aisha bint Abi Bakr",
+      "Umm Salamah",
+      "Hafsah bint Umar"
+    ],
+    "answer": "Aisha bint Abi Bakr"
+  },
+  {
+    "id": 29,
+    "category": "Companions",
+    "question": "Which companion was given the title 'As-Siddiq' (The Truthful) by the Prophet Muhammad (PBUH)?",
+    "options": [
+      "Umar ibn al-Khattab",
+      "Uthman ibn Affan",
+      "Abu Bakr",
+      "Ali ibn Abi Talib"
+    ],
+    "answer": "Abu Bakr"
+  },
+  {
+    "id": 30,
+    "category": "Fiqh basics",
+    "question": "What is the term for actions that are recommended and rewarded if performed, but carry no sin if omitted?",
+    "options": ["Wajib", "Mustahabb", "Makruh", "Mubah"],
+    "answer": "Mustahabb"
+  },
+  {
+    "id": 31,
+    "category": "Quran",
+    "question": "Which Surah is equivalent to one-third of the Quran in terms of its core theological rewards and meaning?",
+    "options": [
+      "Surah Al-Ikhlas",
+      "Surah Al-Fatiha",
+      "Surah Yaseen",
+      "Surah Al-Mulk"
+    ],
+    "answer": "Surah Al-Ikhlas"
+  },
+  {
+    "id": 32,
+    "category": "Prophets",
+    "question": "Which Prophet was swallowed by a large fish or whale and survived by praying to Allah inside its belly?",
+    "options": [
+      "Prophet Yunus (Jonah)",
+      "Prophet Nuh (Noah)",
+      "Prophet Yusuf (Joseph)",
+      "Prophet Isa (Jesus)"
+    ],
+    "answer": "Prophet Yunus (Jonah)"
+  },
+  {
+    "id": 33,
+    "category": "Islam",
+    "question": "What is the annual mandatory charity given by Muslims who meet the wealth threshold (Nisab)?",
+    "options": ["Sadaqah", "Zakat", "Jizyah", "Kharaj"],
+    "answer": "Zakat"
+  },
+  {
+    "id": 34,
+    "category": "Salah",
+    "question": "What is the Arabic term for the prostration element in Salah where the forehead touches the ground?",
+    "options": ["Ruku", "Sujood", "Qiyam", "Tashahhud"],
+    "answer": "Sujood"
+  },
+  {
+    "id": 35,
+    "category": "Ramadan",
+    "question": "What is the pre-dawn meal eaten by Muslims before starting their fast called?",
+    "options": ["Iftar", "Suhoor", "Walimah", "Aqeeqah"],
+    "answer": "Suhoor"
+  },
+  {
+    "id": 36,
+    "category": "Hajj",
+    "question": "What is the ritual of walking rapidly seven times between the hills of Safa and Marwah called?",
+    "options": ["Tawaf", "Sa'i", "Ramy", "Wuquf"],
+    "answer": "Sa'i"
+  },
+  {
+    "id": 37,
+    "category": "History",
+    "question": "What major military treaty was signed between the Muslims of Medina and the Quraysh tribe of Mecca in 6 AH?",
+    "options": [
+      "Treaty of Hudaybiyyah",
+      "Pledge of Aqabah",
+      "Charter of Medina",
+      "Treaty of Taif"
+    ],
+    "answer": "Treaty of Hudaybiyyah"
+  },
+  {
+    "id": 38,
+    "category": "Hadith",
+    "question": "What does the term 'Muttafaqun Alayh' mean when appended to a Hadith citation?",
+    "options": [
+      "Agreed upon by Bukhari and Muslim",
+      "Narrated only by Aisha",
+      "Considered a weak narration",
+      "Transmitted by all six major books"
+    ],
+    "answer": "Agreed upon by Bukhari and Muslim"
+  },
+  {
+    "id": 39,
+    "category": "Companions",
+    "question": "Which companion married two daughters of Prophet Muhammad (Ruqayyahu and Umm Kulthum), earning him the title 'Dhun-Noorayn'?",
+    "options": [
+      "Ali ibn Abi Talib",
+      "Uthman ibn Affan",
+      "Zayd ibn Thabit",
+      "Talhah ibn Ubaydullah"
+    ],
+    "answer": "Uthman ibn Affan"
+  },
+  {
+    "id": 40,
+    "category": "Fiqh basics",
+    "question": "If water is unavailable or its use causes health issues, what material is used to perform Tayammum (dry purification)?",
+    "options": [
+      "Clean sand or soil",
+      "Cloth or fabric",
+      "Wood or bark",
+      "Leaves or vegetation"
+    ],
+    "answer": "Clean sand or soil"
+  },
+  {
+    "id": 41,
+    "category": "Quran",
+    "question": "How many chapters (Surahs) are contained within the text of the Holy Quran?",
+    "options": ["114", "110", "120", "112"],
+    "answer": "114"
+  },
+  {
+    "id": 42,
+    "category": "Prophets",
+    "question": "Which Prophet constructed the Ark to preserve human and animal life from a catastrophic global flood?",
+    "options": [
+      "Prophet Nuh (Noah)",
+      "Prophet Hud",
+      "Prophet Salih",
+      "Prophet Ibrahim (Abraham)"
+    ],
+    "answer": "Prophet Nuh (Noah)"
+  },
+  {
+    "id": 43,
+    "category": "Islam",
+    "question": "What is the phrase used to signify 'If Allah wills' when speaking of a future action?",
+    "options": ["Alhamdulillah", "Insha'Allah", "SubhanAllah", "Masha'Allah"],
+    "answer": "Insha'Allah"
+  },
+  {
+    "id": 44,
+    "category": "Salah",
+    "question": "What is the maximum number of people required to validate the weekly Jummah (Friday) congregational prayer in mainstream schools?",
+    "options": [
+      "At least 40 or 3 depending on the school",
+      "Exactly 100",
+      "A minimum of 12",
+      "It can be done alone"
+    ],
+    "answer": "At least 40 or 3 depending on the school"
+  },
+  {
+    "id": 45,
+    "category": "Ramadan",
+    "question": "What is the meal called that breaks the fast at sunset?",
+    "options": ["Suhoor", "Iftar", "Fajr meal", "Nafilah"],
+    "answer": "Iftar"
+  },
+  {
+    "id": 46,
+    "category": "Hajj",
+    "question": "What is the ritual of pelting the stone pillars in Mina called?",
+    "options": ["Ramy al-Jamarat", "Tawaf al-Wada", "Wuquf", "Sa'i"],
+    "answer": "Ramy al-Jamarat"
+  },
+  {
+    "id": 47,
+    "category": "History",
+    "question": "Which empire did the Muslim forces decisively defeat at the Battle of Qadisiyyah during the caliphate of Umar?",
+    "options": [
+      "The Byzantine Empire",
+      "The Sasanian Persian Empire",
+      "The Roman Empire",
+      "The Kingdom of Axum"
+    ],
+    "answer": "The Sasanian Persian Empire"
+  },
+  {
+    "id": 48,
+    "category": "Hadith",
+    "question": "What is a 'Hadith Qudsi'?",
+    "options": [
+      "A saying of the Prophet containing words revealed by Allah",
+      "A saying compiled exclusively in Jerusalem",
+      "A Hadith narrated only by the four Caliphs",
+      "A weak Hadith with missing narrators"
+    ],
+    "answer": "A saying of the Prophet containing words revealed by Allah"
+  },
+  {
+    "id": 49,
+    "category": "Companions",
+    "question": "Which cousin of the Prophet was the first young male to accept Islam and later became the fourth Caliph?",
+    "options": [
+      "Ja'far ibn Abi Talib",
+      "Ali ibn Abi Talib",
+      "Abdullah ibn Abbas",
+      "Abbas ibn Abd al-Muttalib"
+    ],
+    "answer": "Ali ibn Abi Talib"
+  },
+  {
+    "id": 50,
+    "category": "Fiqh basics",
+    "question": "Which category of food and drink is considered lawful and permissible for consumption in Islam?",
+    "options": ["Haram", "Halal", "Makruh", "Mushtabah"],
+    "answer": "Halal"
+  },
+  {
+    "id": 51,
+    "category": "Quran",
+    "question": "Which Surah is nicknamed 'The Heart of the Quran' in popular Islamic tradition?",
+    "options": [
+      "Surah Al-Mulk",
+      "Surah Yaseen",
+      "Surah Ar-Rahman",
+      "Surah Al-Waqi'ah"
+    ],
+    "answer": "Surah Yaseen"
+  },
+  {
+    "id": 52,
+    "category": "Prophets",
+    "question": "Which Prophet was cast into a blazing furnace by King Nimrod but emerged completely unharmed?",
+    "options": [
+      "Prophet Ibrahim (Abraham)",
+      "Prophet Lut (Lot)",
+      "Prophet Hud",
+      "Prophet Salih"
+    ],
+    "answer": "Prophet Ibrahim (Abraham)"
+  },
+  {
+    "id": 53,
+    "category": "Islam",
+    "question": "What is the specific Arabic phrase uttered to express praise and gratitude exclusively to Allah?",
+    "options": [
+      "SubhanAllah",
+      "Alhamdulillah",
+      "Astaghfirullah",
+      "Allahu Akbar"
+    ],
+    "answer": "Alhamdulillah"
+  },
+  {
+    "id": 54,
+    "category": "Salah",
+    "question": "What is the initial statement called when a Muslim raises their hands to signify the official start of prayer?",
+    "options": ["Takbeerat-ul-Ihram", "Tashahhud", "Tasleem", "Iqamah"],
+    "answer": "Takbeerat-ul-Ihram"
+  },
+  {
+    "id": 55,
+    "category": "Ramadan",
+    "question": "Which action explicitly invalidates a person's fast during the daylight hours of Ramadan?",
+    "options": [
+      "Using a miswak",
+      "Accidental swallowing of water",
+      "Deliberate vomiting",
+      "Applying perfume"
+    ],
+    "answer": "Deliberate vomiting"
+  },
+  {
+    "id": 56,
+    "category": "Hajj",
+    "question": "From which specific location outside Mecca must pilgrims enter the state of Ihram?",
+    "options": ["Meeqat", "Tan'eem", "Mina", "Muzdalifah"],
+    "answer": "Meeqat"
+  },
+  {
+    "id": 57,
+    "category": "History",
+    "question": "What was the name of the historic pact made by young men in Mecca, including the Prophet before his mission, to defend the rights of vulnerable travelers?",
+    "options": [
+      "Hilf al-Fudul",
+      "Treaty of Taif",
+      "Pledge of Ridwan",
+      "Constitution of Medina"
+    ],
+    "answer": "Hilf al-Fudul"
+  },
+  {
+    "id": 58,
+    "category": "Hadith",
+    "question": "Which scholar compiled the major Hadith collection known as 'Sunan al-Sughra'?",
+    "options": [
+      "Imam Abu Dawud",
+      "Imam At-Tirmidhi",
+      "Imam An-Nasa'i",
+      "Imam Ibn Majah"
+    ],
+    "answer": "Imam An-Nasa'i"
+  },
+  {
+    "id": 59,
+    "category": "Companions",
+    "question": "Which companion, renowned for his financial genius, migrated to Medina with nothing and quickly became one of its wealthiest merchants?",
+    "options": [
+      "Abdur Rahman ibn Awf",
+      "Sa'd ibn Abi Waqqas",
+      "Zubayr ibn al-Awwam",
+      "Abu Ubaidah ibn al-Jarrah"
+    ],
+    "answer": "Abdur Rahman ibn Awf"
+  },
+  {
+    "id": 60,
+    "category": "Fiqh basics",
+    "question": "What type of water is classified in Fiqh as permissible to use for both consumption and ritual purification?",
+    "options": [
+      "Mutlaq water",
+      "Musta'mal water",
+      "Mutanajjis water",
+      "Musakhkhan water"
+    ],
+    "answer": "Mutlaq water"
+  },
+  {
+    "id": 61,
+    "category": "Quran",
+    "question": "In which Surah do we find the 'Ayat al-Kursi' (The Verse of the Throne)?",
+    "options": [
+      "Surah Al-Imran",
+      "Surah Al-Baqarah",
+      "Surah An-Nisa",
+      "Surah Al-An'am"
+    ],
+    "answer": "Surah Al-Baqarah"
+  },
+  {
+    "id": 62,
+    "category": "Prophets",
+    "question": "Which Prophet was blessed with unprecedented physical beauty and survived being thrown down a well by his jealous brothers?",
+    "options": [
+      "Prophet Yusuf (Joseph)",
+      "Prophet Binyamin",
+      "Prophet Yahya (John)",
+      "Prophet Ishaq (Isaac)"
+    ],
+    "answer": "Prophet Yusuf (Joseph)"
+  },
+  {
+    "id": 63,
+    "category": "Islam",
+    "question": "What is the name of the angel responsible for delivering revelations from Allah to the Prophets?",
+    "options": [
+      "Angel Mika'il",
+      "Angel Jibril (Gabriel)",
+      "Angel Israfil",
+      "Angel Malik"
+    ],
+    "answer": "Angel Jibril (Gabriel)"
+  },
+  {
+    "id": 64,
+    "category": "Salah",
+    "question": "What is the collective term for the specific physical movements of standing, bowing, and prostrating that form a single unit of prayer?",
+    "options": ["Rak'ah", "Jalsah", "Qa'dah", "Sujood"],
+    "answer": "Rak'ah"
+  },
+  {
+    "id": 65,
+    "category": "Ramadan",
+    "question": "What form of mandatory spiritual compensation must a person fulfill if they deliberately break a Ramadan fast without a valid excuse?",
+    "options": ["Fidyah", "Kaffarah", "Sadaqah Maqbul", "Zakat al-Fitr"],
+    "answer": "Kaffarah"
+  },
+  {
+    "id": 66,
+    "category": "Hajj",
+    "question": "Where do pilgrims gather to collect pebbles on the night of the 9th of Dhul-Hijjah after leaving Arafat?",
+    "options": ["Mina", "Muzdalifah", "Tan'eem", "Jabal al-Noor"],
+    "answer": "Muzdalifah"
+  },
+  {
+    "id": 67,
+    "category": "History",
+    "question": "Who was the fierce warrior known as the 'Sword of Allah' (Sayfullah) due to his military brilliance?",
+    "options": [
+      "Khalid ibn al-Walid",
+      "Hamzah ibn Abd al-Muttalib",
+      "Ali ibn Abi Talib",
+      "Sa'd ibn Abi Waqqas"
+    ],
+    "answer": "Khalid ibn al-Walid"
+  },
+  {
+    "id": 68,
+    "category": "Hadith",
+    "question": "Which book of Hadith is arranged specifically by legal topics (Fiqh) and was compiled by Imam Abu Dawud?",
+    "options": ["Sahih", "Sunan", "Musnad", "Muwatta"],
+    "answer": "Sunan"
+  },
+  {
+    "id": 69,
+    "category": "Companions",
+    "question": "Who was the mother of the believers who stood by the Prophet during his first revelation and spent her entire fortune supporting early Islam?",
+    "options": [
+      "Aisha bint Abi Bakr",
+      "Khadijah bint Khuwaylid",
+      "Sawdah bint Zam'ah",
+      "Hafsah bint Umar"
+    ],
+    "answer": "Khadijah bint Khuwaylid"
+  },
+  {
+    "id": 70,
+    "category": "Fiqh basics",
+    "question": "What is the category of legal ruling for actions that are disliked but not sinful if committed?",
+    "options": ["Haram", "Makruh", "Mubah", "Sunnah Mu'akkadah"],
+    "answer": "Makruh"
+  },
+  {
+    "id": 71,
+    "category": "Quran",
+    "question": "Which Surah is recommended to be recited every Friday to secure spiritual protection from the trials of the Dajjal?",
+    "options": [
+      "Surah Al-Kahf",
+      "Surah Al-Mulk",
+      "Surah Al-Waqi'ah",
+      "Surah Al-Sajdah"
+    ],
+    "answer": "Surah Al-Kahf"
+  },
+  {
+    "id": 72,
+    "category": "Prophets",
+    "question": "Which Prophet was born without a father, a profound miracle from Allah?",
+    "options": [
+      "Prophet Isa (Jesus)",
+      "Prophet Yahya (John)",
+      "Prophet Idris (Enoch)",
+      "Prophet Adam"
+    ],
+    "answer": "Prophet Isa (Jesus)"
+  },
+  {
+    "id": 73,
+    "category": "Islam",
+    "question": "What is the name of the final destination of eternal reward and bliss described in Islamic scripture?",
+    "options": ["Jahannam", "Barzakh", "Jannah", "Araf"],
+    "answer": "Jannah"
+  },
+  {
+    "id": 74,
+    "category": "Salah",
+    "question": "Which voluntary prayer is performed specifically during a solar or lunar eclipse?",
+    "options": [
+      "Salat al-Kusuf",
+      "Salat al-Istisqa",
+      "Salat al-Khawf",
+      "Salat al-Janazah"
+    ],
+    "answer": "Salat al-Kusuf"
+  },
+  {
+    "id": 75,
+    "category": "Ramadan",
+    "question": "What is the mandatory charity due on every Muslim before the Eid al-Fitr prayer to ensure the poor can celebrate?",
+    "options": ["Zakat al-Fitr", "Sadaqah Jariyah", "Kaffarah", "Ushr"],
+    "answer": "Zakat al-Fitr"
+  },
+  {
+    "id": 76,
+    "category": "Hajj",
+    "question": "What do male pilgrims do to signify the conclusion of major Hajj rituals, replacing their state of Ihram?",
+    "options": [
+      "Halq (shaving the head) or Taqseer",
+      "Perform Ghusl with Zamzam",
+      "Sacrifice a camel manually",
+      "Wear silk garments"
+    ],
+    "answer": "Halq (shaving the head) or Taqseer"
+  },
+  {
+    "id": 77,
+    "category": "History",
+    "question": "What names were given to the local residents of Medina who welcomed and aided the Muslim migrants from Mecca?",
+    "options": ["Muhajirun", "Ansar", "Tabi'un", "Quraysh"],
+    "answer": "Ansar"
+  },
+  {
+    "id": 78,
+    "category": "Hadith",
+    "question": "Which compilation contains Hadiths organized strictly under the names of individual companion narrators?",
+    "options": [
+      "Musnad of Imam Ahmad",
+      "Sahih Muslim",
+      "Sunan At-Tirmidhi",
+      "Muwatta Malik"
+    ],
+    "answer": "Musnad of Imam Ahmad"
+  },
+  {
+    "id": 79,
+    "category": "Companions",
+    "question": "Which companion, famed for his loyalty, stayed with the Prophet in the Cave of Thawr during the escape to Medina?",
+    "options": [
+      "Abu Bakr Al-Siddiq",
+      "Ali ibn Abi Talib",
+      "Umar ibn al-Khattab",
+      "Zayd ibn Harithah"
+    ],
+    "answer": "Abu Bakr Al-Siddiq"
+  },
+  {
+    "id": 80,
+    "category": "Fiqh basics",
+    "question": "What is the legal status of an action that has no religious reward or punishment attached to it, being completely optional?",
+    "options": ["Mubah", "Mustahabb", "Makruh", "Wajib"],
+    "answer": "Mubah"
+  },
+  {
+    "id": 81,
+    "category": "Quran",
+    "question": "How many verses (Ayat) are there in Surah Al-Fatiha?",
+    "options": ["Five", "Six", "Seven", "Eight"],
+    "answer": "Seven"
+  },
+  {
+    "id": 82,
+    "category": "Prophets",
+    "question": "Which Prophet confronted Pharaoh and witnessed his staff transform into a living serpent?",
+    "options": [
+      "Prophet Musa (Moses)",
+      "Prophet Harun (Aaron)",
+      "Prophet Yusuf (Joseph)",
+      "Prophet Shu'ayb"
+    ],
+    "answer": "Prophet Musa (Moses)"
+  },
+  {
+    "id": 83,
+    "category": "Islam",
+    "question": "What is the Arabic word for the divine decree and predestination of all things by Allah?",
+    "options": ["Qadar", "Rizq", "Barakah", "Adl"],
+    "answer": "Qadar"
+  },
+  {
+    "id": 84,
+    "category": "Salah",
+    "question": "What term refers to the deliberate composure, stillness, and calmness required during each posture of Salah?",
+    "options": ["Khushu", "Tuma'neenah", "Qiyam", "Tashahhud"],
+    "answer": "Tuma'neenah"
+  },
+  {
+    "id": 85,
+    "category": "Ramadan",
+    "question": "Which group of people is exempted from fasting during Ramadan but must make up the missed days later?",
+    "options": [
+      "The chronically insane",
+      "Travelers and sick individuals",
+      "The permanently elderly",
+      "Pre-pubescent children"
+    ],
+    "answer": "Travelers and sick individuals"
+  },
+  {
+    "id": 86,
+    "category": "Hajj",
+    "question": "What is the distinctive prayer or chant recited repeatedly by pilgrims during Hajj, beginning with 'Labbayk Allahumma Labbayk'?",
+    "options": ["Talbiyah", "Tashriq", "Takbeer", "Tahmeed"],
+    "answer": "Talbiyah"
+  },
+  {
+    "id": 87,
+    "category": "History",
+    "question": "What historic event occurred in the 8th year after Hijrah, resulting in the peaceful surrender of Mecca to the Muslims?",
+    "options": [
+      "Fath Makkah (Conquest of Mecca)",
+      "Battle of Uhud",
+      "Battle of the Trench",
+      "Pledge of Aqabah"
+    ],
+    "answer": "Fath Makkah (Conquest of Mecca)"
+  },
+  {
+    "id": 88,
+    "category": "Hadith",
+    "question": "What is the text or content portion of a Hadith called, distinct from its transmission chain?",
+    "options": ["Isnad", "Matn", "Sanad", "Rijal"],
+    "answer": "Matn"
+  },
+  {
+    "id": 89,
+    "category": "Companions",
+    "question": "Who was known as the 'Scribe of the Revelation' and spearheaded the committee to compile the standard textual Quran?",
+    "options": [
+      "Zayd ibn Thabit",
+      "Abdullah ibn Mas’ud",
+      "Ubayy ibn Ka'b",
+      "Mu'adh ibn Jabal"
+    ],
+    "answer": "Zayd ibn Thabit"
+  },
+  {
+    "id": 90,
+    "category": "Fiqh basics",
+    "question": "What is the term for the heavy spiritual impurity that can only be purified by a full body bath (Ghusl)?",
+    "options": [
+      "Hadath Asghar",
+      "Hadath Akbar",
+      "Najasat Haqiqiyyah",
+      "Istihadah"
+    ],
+    "answer": "Hadath Akbar"
+  },
+  {
+    "id": 91,
+    "category": "Quran",
+    "question": "Which Surah contains an explicit mention of the historical incident involving the Army of the Elephant?",
+    "options": [
+      "Surah Al-Fil",
+      "Surah Quraysh",
+      "Surah Al-Adiyat",
+      "Surah Al-Qari'ah"
+    ],
+    "answer": "Surah Al-Fil"
+  },
+  {
+    "id": 92,
+    "category": "Prophets",
+    "question": "Which Prophet was thrown into a well by his brothers and later rose to govern Egypt's treasuries?",
+    "options": [
+      "Prophet Yusuf (Joseph)",
+      "Prophet Yaqub (Jacob)",
+      "Prophet Ishaq (Isaac)",
+      "Prophet Ibrahim (Abraham)"
+    ],
+    "answer": "Prophet Yusuf (Joseph)"
+  },
+  {
+    "id": 93,
+    "category": "Islam",
+    "question": "What is the spiritual state of inner excellence where a person worships Allah as if they can see Him?",
+    "options": ["Ihsan", "Iman", "Islam", "Inshad"],
+    "answer": "Ihsan"
+  },
+  {
+    "id": 94,
+    "category": "Salah",
+    "question": "What is the call made immediately before the start of the congregational prayer to line up the rows?",
+    "options": ["Adhan", "Iqamah", "Takbeer", "Tasleem"],
+    "answer": "Iqamah"
+  },
+  {
+    "id": 95,
+    "category": "Ramadan",
+    "question": "What is the term for spiritual seclusion inside a mosque during the last ten days of Ramadan?",
+    "options": ["Itikaf", "Tahajjud", "Tafakkur", "Zikr"],
+    "answer": "Itikaf"
+  },
+  {
+    "id": 96,
+    "category": "Hajj",
+    "question": "What are the three days following Eid al-Adha (11th, 12th, and 13th of Dhul-Hijjah) called?",
+    "options": [
+      "Ayyam al-Tashriq",
+      "Ayyam al-Beed",
+      "Ayyam al-Nahr",
+      "Ayyam al-Hajj"
+    ],
+    "answer": "Ayyam al-Tashriq"
+  },
+  {
+    "id": 97,
+    "category": "History",
+    "question": "In which battle did Muslims dig a massive defensive ditch around Medina on the advice of Salman al-Farsi?",
+    "options": [
+      "Battle of Uhud",
+      "Battle of the Trench (Khandaq)",
+      "Battle of Hunayn",
+      "Battle of Khaybar"
+    ],
+    "answer": "Battle of the Trench (Khandaq)"
+  },
+  {
+    "id": 98,
+    "category": "Hadith",
+    "question": "Which Hadith collection is traditionally paired with Sahih Al-Bukhari as the ultimate 'Two Authentic Books' (Sahihayn)?",
+    "options": [
+      "Sahih Muslim",
+      "Sunan Abu Dawud",
+      "Sunan At-Tirmidhi",
+      "Musnad Ahmad"
+    ],
+    "answer": "Sahih Muslim"
+  },
+  {
+    "id": 99,
+    "category": "Companions",
+    "question": "Who was the uncle of the Prophet known as 'Asadullah' (The Lion of Allah) who fell as a martyr at the Battle of Uhud?",
+    "options": [
+      "Hamzah ibn Abd al-Muttalib",
+      "Abbas ibn Abd al-Muttalib",
+      "Abu Talib",
+      "Ja'far ibn Abi Talib"
+    ],
+    "answer": "Hamzah ibn Abd al-Muttalib"
+  },
+  {
+    "id": 100,
+    "category": "Fiqh basics",
+    "question": "What is the minimum threshold of accumulated wealth a Muslim must possess for a full lunar year before Zakat becomes mandatory?",
+    "options": ["Nisab", "Fidyah", "Ushr", "Khums"],
+    "answer": "Nisab"
+  },
+  {
+    "id": 101,
+    "category": "Quran",
+    "question": "Which Surah is the shortest in the entire Quran, containing only three verses?",
+    "options": [
+      "Surah Al-Asr",
+      "Surah Al-Kawthar",
+      "Surah Al-Ikhlas",
+      "Surah An-Nas"
+    ],
+    "answer": "Surah Al-Kawthar"
+  },
+  {
+    "id": 102,
+    "category": "Prophets",
+    "question": "Which Prophet was sent to reform the people of Thamud and was given a miraculous she-camel as a sign?",
+    "options": [
+      "Prophet Salih",
+      "Prophet Hud",
+      "Prophet Shu'ayb",
+      "Prophet Ibrahim"
+    ],
+    "answer": "Prophet Salih"
+  },
+  {
+    "id": 103,
+    "category": "Islam",
+    "question": "What is the name of the cosmic barrier separating the physical world from the afterlife where souls wait until Resurrection?",
+    "options": ["Barzakh", "Siraat", "Mizan", "Hawd"],
+    "answer": "Barzakh"
+  },
+  {
+    "id": 104,
+    "category": "Salah",
+    "question": "Which daily prayer window opens exactly after midday when the sun clears its meridian line?",
+    "options": ["Fajr", "Dhuhr", "Asr", "Maghrib"],
+    "answer": "Dhuhr"
+  },
+  {
+    "id": 105,
+    "category": "Ramadan",
+    "question": "What financial payment is due from someone permanently unable to fast due to chronic old age or incurable sickness?",
+    "options": ["Fidyah", "Zakat", "Kaffarah", "Sadaqah"],
+    "answer": "Fidyah"
+  },
+  {
+    "id": 106,
+    "category": "Hajj",
+    "question": "What is the specific Tawaf called that pilgrims perform immediately before completely leaving Mecca to return home?",
+    "options": [
+      "Tawaf al-Qudoom",
+      "Tawaf al-Ziyarah",
+      "Tawaf al-Wada (Farewell)",
+      "Tawaf al-Ifadah"
+    ],
+    "answer": "Tawaf al-Wada (Farewell)"
+  },
+  {
+    "id": 107,
+    "category": "History",
+    "question": "Who was the Roman Emperor to whom Prophet Muhammad (PBUH) sent a formal letter inviting him to Islam?",
+    "options": ["Heraclius", "Chosroes", "Negus", "Muqawqis"],
+    "answer": "Heraclius"
+  },
+  {
+    "id": 108,
+    "category": "Hadith",
+    "question": "What terminology describes a Hadith with an continuous, unbroken chain of narrator links extending all the way back to the Prophet?",
+    "options": ["Muttasil", "Munqati", "Mu'dal", "Mursal"],
+    "answer": "Muttasil"
+  },
+  {
+    "id": 109,
+    "category": "Companions",
+    "question": "Which companion was affectionately nicknamed 'Abu Hurairah' (Father of the Kitten) by the Prophet?",
+    "options": [
+      "Abdur-Rahman ibn Sakhr al-Dawsi",
+      "Abdullah ibn Umar",
+      "Anas ibn Malik",
+      "Jabir ibn Abdullah"
+    ],
+    "answer": "Abdur-Rahman ibn Sakhr al-Dawsi"
+  },
+  {
+    "id": 110,
+    "category": "Fiqh basics",
+    "question": "What is the standard ruling for wiping over clean leather socks (Khuffayn) during Wudu instead of washing the feet for a resident traveler?",
+    "options": [
+      "Permissible for 24 hours",
+      "Permissible for 3 days",
+      "Forbidden entirely",
+      "Mandatory during winter"
+    ],
+    "answer": "Permissible for 24 hours"
+  },
+  {
+    "id": 111,
+    "category": "Quran",
+    "question": "How many Sajdahs (verses requiring prostration) are scattered across the standardized text of the Quran?",
+    "options": ["10", "12", "14", "15"],
+    "answer": "14"
+  },
+  {
+    "id": 112,
+    "category": "Prophets",
+    "question": "Which Prophet was sent to the people of Aad and survived a terrifying, icy windstorm that destroyed the idolaters?",
+    "options": ["Prophet Hud", "Prophet Salih", "Prophet Lut", "Prophet Nuh"],
+    "answer": "Prophet Hud"
+  },
+  {
+    "id": 113,
+    "category": "Islam",
+    "question": "What is the name of the angel tasked with blowing the trumpet to signal the onset of Judgment Day?",
+    "options": [
+      "Angel Israfil",
+      "Angel Mika'il",
+      "Angel Izra'il",
+      "Angel Jibril"
+    ],
+    "answer": "Angel Israfil"
+  },
+  {
+    "id": 114,
+    "category": "Salah",
+    "question": "What is the ruling on the two Sunnah Rak'ahs performed prior to the mandatory Fajr prayer?",
+    "options": [
+      "Sunnah Mu'akkadah (Highly stressed)",
+      "Nafl (Purely voluntary)",
+      "Fard Kifayah",
+      "Makruh"
+    ],
+    "answer": "Sunnah Mu'akkadah (Highly stressed)"
+  },
+  {
+    "id": 115,
+    "category": "Ramadan",
+    "question": "Which specific gate of Paradise is reserved exclusively for those who observed fasts diligently?",
+    "options": [
+      "Ar-Rayyan",
+      "Al-Baab al-Ayman",
+      "Baab al-Jihad",
+      "Baab al-Salah"
+    ],
+    "answer": "Ar-Rayyan"
+  },
+  {
+    "id": 116,
+    "category": "Hajj",
+    "question": "What is the name of the black stone embedded in the eastern corner of the Kaaba, which pilgrims kiss or signal toward?",
+    "options": ["Hajar al-Aswad", "Maqam Ibrahim", "Mizab al-Rahmah", "Hateem"],
+    "answer": "Hajar al-Aswad"
+  },
+  {
+    "id": 117,
+    "category": "History",
+    "question": "What was the designation given to the military campaign where an archer corps abandoned their posts, shifting victory to defeat at Mount Uhud?",
+    "options": [
+      "Battle of Uhud",
+      "Battle of Hunayn",
+      "Battle of Mu'tah",
+      "Battle of Tabuk"
+    ],
+    "answer": "Battle of Uhud"
+  },
+  {
+    "id": 118,
+    "category": "Hadith",
+    "question": "What type of Hadith is deemed 'Mursal'?",
+    "options": [
+      "A narration where a Tabi'i quotes the Prophet directly, omitting the companion",
+      "A narration with two consecutive missing links",
+      "A narration text that contradicts the Quran",
+      "A highly fabricated report"
+    ],
+    "answer": "A narration where a Tabi'i quotes the Prophet directly, omitting the companion"
+  }
+]

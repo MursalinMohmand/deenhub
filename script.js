@@ -133,9 +133,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const dfile = Dresp.asmaul_husna;
 
-    for (item of dfile) {
-      const div = document.createElement("div");
-      div.innerHTML = `<div
+    if (ASmainDiv) {
+      for (item of dfile) {
+        const div = document.createElement("div");
+        div.innerHTML = `<div
             class="shadow-md h-44 p-4 rounded-md grid grid-cols-1 transition-transform ease-in-out hover:scale-105 duration-700 cursor-pointer hover:bg-[#1f7a4c3f]"
           >
             <h1 class="text-3xl font-noto">${item["arabic"]}</h1>
@@ -143,8 +144,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <h1 class="sm:text-lg">${item["meaning"]}</h1>
           </div>`;
 
-      if (div) {
-        ASmainDiv.append(div);
+        if (div) {
+          ASmainDiv.append(div);
+        }
       }
     }
   };
@@ -174,6 +176,117 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
+
+  //Quiz Screen
+
+  const qtext = document.querySelector("#qText");
+  const quiztext = document.querySelector(".quiztext");
+  const options = document.querySelector("#options");
+  const resetButton = document.querySelector(".resetButton");
+  const crq = document.querySelector("#crq");
+  const progressBar = document.querySelector("#progressBar");
+
+  const QuizURL = "./clean_islamic_quiz_dataset.json";
+
+  let quizData = [];
+  let currentIndex = 0;
+  let Score = 0;
+  let qnumb = 1;
+  let prsize = 5;
+
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+  resetButton.addEventListener("click", () => {
+    loadQuiz();
+    currentIndex = 0;
+    Score = 0;
+    qnumb = 1;
+    prsize = 5;
+    resetButton.classList.add("hidden");
+  });
+
+  const loadQuiz = async () => {
+    const req = await fetch(QuizURL);
+    quizData = await req.json();
+
+    // optional: shuffle questions
+    shuffleArray(quizData);
+
+    showQuestion();
+  };
+
+  function showQuestion() {
+    options.innerHTML = "";
+
+    progressBar.style = `width: ${prsize}%`;
+
+    const q = quizData[currentIndex];
+
+    qtext.textContent = q.question;
+    crq.textContent = qnumb;
+
+    q.options.forEach((item) => {
+      const div = document.createElement("div");
+      div.className =
+        "answ w-full shadow-md flex items-center pl-5 gap-5 rounded-md py-3 border-gray-300 border";
+
+      div.innerHTML = `
+      <iconify-icon class="text-orange-200 text-xl" icon="material-symbols-light:mosque-outline"></iconify-icon>
+      <p class="text-xl antext text-gray-500">${item}</p>
+    `;
+
+      options.appendChild(div);
+
+      div.addEventListener("click", () => {
+        const selected = item;
+        const correct = q.answer;
+
+        if (selected === correct) {
+          Score++;
+        }
+
+        // highlight all
+        document.querySelectorAll(".answ").forEach((el) => {
+          el.classList.remove("bg-[#1F7A4D]");
+        });
+
+        // mark selected
+        div.classList.add("bg-[#1F7A4D]");
+
+        setTimeout(() => {
+          currentIndex++;
+          qnumb++;
+          prsize += 5;
+
+          if (currentIndex >= 20) {
+            qtext.textContent = "";
+            resetButton.classList.remove("hidden");
+            quiztext.classList.remove("h-36");
+            const div = document.createElement("div");
+            div.className = `flex justify-center grid grid-col-1 text-center gap-2 `;
+            div.innerHTML = `<iconify-icon  class="text-[#1F7A4D] animate-bounce text-8xl" icon="mdi:tick-decagram"></iconify-icon> 
+            <p class="py-2 text-4xl">Result</p>
+            <p class="py-5 text-4xl">${Score}</p>
+            `;
+            qtext.append(div);
+
+            options.innerHTML = "";
+
+            return;
+          }
+
+          showQuestion();
+        }, 500);
+      });
+    });
+  }
+
+  loadQuiz();
 
   // const getData = async () => {
   //   const url = `https://corsproxy.io/?https://nominatim.openstreetmap.org/search?format=json&q=${city}`;

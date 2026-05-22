@@ -131,43 +131,36 @@
           <div
             class="w-full flex justify-between rounded-md items-center p-4 shadow-md h-16"
           >
-            <div class="flex gap-3">
-              <iconify-icon class="text-xl" icon="noto:trophy"></iconify-icon>
-              <p>120</p>
-            </div>
-            <div class="w-36 text-center">
-              <p><span>1</span> of 20</p>
-              <!-- Track Background -->
+            <div class="w-full text-center">
+              <p><span id="crq">1</span> of 20</p>
+
               <div class="h-3 bg-slate-200 rounded-full overflow-hidden">
-                <!-- Filled Progress Line -->
-                <!-- Update the style="width: XX%" dynamically with JavaScript -->
                 <div
+                  id="progressBar"
                   class="h-full w-full bg-emerald-500 transition-all duration-300 ease-out"
-                  style="width: 10%"
                 ></div>
               </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <iconify-icon
-                class="text-xl text-[#1F7A4D]"
-                icon="icon-park-outline:time"
-              ></iconify-icon>
-              <p>00:25</p>
             </div>
           </div>
         </div>
 
         <div class="p-4">
-          <div class="w-full h-48 rounded-md shadow-md border-[#1F7A4D] border">
-            <div class="flex justify-center relative">
-              <iconify-icon
-                class="absolute text-6xl -top-7.5 text-[#1F7A4D]"
-                icon="streamline-sharp:octagram-shape-solid"
-              >
-                <p>4</p>
-              </iconify-icon>
+          <div
+            class="quiztext w-full rounded-md shadow-md border-[#1F7A4D] border"
+          >
+            <div id="qText" class="px-5 py-8">Quesion show Here....</div>
+            <div class="hidden resetButton">
+              <div class="flex justify-center py-4">
+                <button
+                  class="restart w-full py-2 mx-4 rounded-md text-white bg-[#1F7A4D]"
+                >
+                  Restart
+                </button>
+              </div>
             </div>
           </div>
+
+          <div id="options" class="py-4 flex flex-col gap-3"></div>
         </div>
       </div>
     </div>
