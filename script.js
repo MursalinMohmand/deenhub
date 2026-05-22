@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
     rftime();
   }
 
-  const AHURL = "/AsmaulHusna.json";
+  const AHURL = "./AsmaulHusna.json";
   const ASmainDiv = document.querySelector("#ASmainDiv");
 
   const getData = async () => {
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const crq = document.querySelector("#crq");
   const progressBar = document.querySelector("#progressBar");
 
-  const QuizURL = "/clean_islamic_quiz_dataset.json" + Date.now();
+  const QuizURL = "./clean_islamic_quiz_dataset.json";
 
   let quizData = [];
   let currentIndex = 0;
