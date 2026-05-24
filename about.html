@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/style.css" />
-    <title>Document</title>
+    <title>About</title>
   </head>
   <body>
     <div class="grid grid-cols-12 h-screen bg-white">
@@ -33,13 +33,6 @@
             </div>
           </a>
 
-          <div>
-            <iconify-icon
-              class="text-gray-400"
-              icon="majesticons:book-open"
-            ></iconify-icon>
-          </div>
-
           <a href="AsmaulHusna.html"
             ><div class="text-center text-gray-400">
               <iconify-icon icon="iconoir:flower"></iconify-icon></div
@@ -58,7 +51,7 @@
       <!--Left Side NavBar-->
 
       <div
-        class="sm:w-52 left-0 top-0 sm:block hidden sm:fixed h-screen bg-white shadow-md"
+        class="sm:w-52 sm:left-0 hidden sm:top-0 sm:block sm:fixed sm:h-screen bg-white shadow-md"
       >
         <div class="flex items-center gap-3 mt-4 ml-4">
           <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
@@ -66,36 +59,45 @@
         </div>
 
         <div class="flex flex-col mt-10 ml-4 gap-4">
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="material-symbols:home-rounded"
-            ></iconify-icon>
-            <p class="text-xl">Home</p>
-          </div>
+          <a href="index.html">
+            <div
+              class="flex text-[#1F7A4D] p-2 rounded-md hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="material-symbols:home-rounded"
+              ></iconify-icon>
+              <p class="text-xl">Home</p>
+            </div>
+          </a>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="hugeicons:tasbih"
-            ></iconify-icon>
-            <p class="text-xl">Tasbih</p>
-          </div>
+          <a href="tasbeh.html"
+            ><div
+              class="flex text-[#1F7A4D] p-2 rounded-md hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="hugeicons:tasbih"
+              ></iconify-icon>
+              <p class="text-xl">Tasbih</p>
+            </div></a
+          >
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="majesticons:book-open"
-            ></iconify-icon>
-            <p class="text-xl">Hadith</p>
-          </div>
+          <a href="AsmaulHusna.html">
+            <div
+              class="flex text-[#1F7A4D] p-2 rounded-md hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="iconoir:flower"
+              ></iconify-icon>
+              <p class="text-xl">Asmaul Husna</p>
+            </div>
+          </a>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon class="text-2xl" icon="iconoir:flower"></iconify-icon>
-            <p class="text-xl">Asmaul Husna</p>
-          </div>
-
-          <div class="flex text-[#1F7A4D] items-center gap-3">
+          <div
+            class="flex lg:hidden p-2 rounded-md hover:bg-[#1f7a4c70] text-[#1F7A4D] items-center gap-3"
+          >
             <iconify-icon
               class="text-2xl"
               icon="fluent:quiz-28-filled"
@@ -103,8 +105,10 @@
             <p class="text-xl">Quiz</p>
           </div>
 
-          <a class="sm:hidden" href=""
-            ><div class="flex text-[#1F7A4D] items-center gap-3">
+          <a href="about.html"
+            ><div
+              class="flex p-2 rounded-md text-[#1F7A4D] bg-[#1f7a4c70] items-center gap-3"
+            >
               <iconify-icon class="text-2xl" icon="mdi:about"></iconify-icon>
               <p class="text-xl">About</p>
             </div></a
@@ -114,20 +118,107 @@
 
       <!--Right Side Div Main View-->
 
-      <div class="sm:ml-52 col-span-12">
-        <div class="sm:h-20 flex items-center justify-between pr-10 shadow-sm">
+      <div class="sm:ml-52 h-screen col-span-12">
+        <div class="sm:h-20 fixed top-0 w-full bg-white shadow-sm">
           <div class="flex py-4 sm:hidden items-center gap-3 mt-4 ml-4">
             <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
             <h1 class="text-2xl text-[#1F7A4D]">DeenHub</h1>
           </div>
+        </div>
 
-          <a href=""
-            ><div>
-              <iconify-icon
-                class="text-2xl text-[#1F7A4D]"
-                icon="mdi:about"
-              ></iconify-icon></div
-          ></a>
+        <div class="flex flex-col mt-24 p-10">
+          <div>
+            <h1>About DeenHub</h1>
+            DeenHub is a modern Islamic web application created to provide
+            Muslims with useful daily Islamic tools in one clean and simple
+            platform. The app is designed with a peaceful and user-friendly
+            interface that helps users stay connected with their faith every
+            day. From accurate prayer times and Hijri dates to Islamic quizzes,
+            Tasbih, and Asmaul Husna, DeenHub combines learning, spirituality,
+            and technology in one experience. The goal of the project is to make
+            Islamic knowledge more interactive, accessible, and engaging for
+            everyone.
+            <div class="flex flex-col mt-2 gap-2">
+              <h1 class="text-sm font-bold">Features of DeenHub</h1>
+              <div class="flex items-center gap-2">
+                <iconify-icon
+                  class="text-orange-200 text-xl"
+                  icon="material-symbols-light:mosque-outline"
+                ></iconify-icon
+                >Daily Prayer Times
+              </div>
+              <div class="flex items-center gap-2">
+                <iconify-icon
+                  class="text-orange-200 text-xl"
+                  icon="material-symbols-light:mosque-outline"
+                ></iconify-icon
+                >Live Clock & Hijri Date
+              </div>
+              <div class="flex items-center gap-2">
+                <iconify-icon
+                  class="text-orange-200 text-xl"
+                  icon="material-symbols-light:mosque-outline"
+                ></iconify-icon
+                >Digital Tasbih Counter
+              </div>
+              <div class="flex items-center gap-2">
+                <iconify-icon
+                  class="text-orange-200 text-xl"
+                  icon="material-symbols-light:mosque-outline"
+                ></iconify-icon
+                >Asmaul Husna (99 Names of Allah)
+              </div>
+              <div class="flex items-center gap-2">
+                <iconify-icon
+                  class="text-orange-200 text-xl"
+                  icon="material-symbols-light:mosque-outline"
+                ></iconify-icon
+                >Islamic Quiz & MCQs
+              </div>
+              <div class="flex items-center gap-2">
+                <iconify-icon
+                  class="text-orange-200 text-xl"
+                  icon="material-symbols-light:mosque-outline"
+                ></iconify-icon
+                >Clean and Modern Islamic UI Responsive Design for All Devices
+              </div>
+            </div>
+            <p class="mt-2">
+              Our Vision DeenHub aims to use modern technology to help Muslims
+              strengthen their connection with Islam through useful tools,
+              educational content, and a simple digital experience.
+            </p>
+          </div>
+
+          <div class="sm:fixed bottom-0 p-10 sm:-ml-52 w-full text-center">
+            <p>
+              Designed and developed by
+              <a
+                href="https://www.linkedin.com/in/mursalin-mohmand/"
+                target="_blank"
+                class="cursor-pointer hover:text-[#1F7A4D]"
+                >Mursalin Mohmand</a
+              >
+            </p>
+
+            <div class="p-2">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/mursalin-mohmand/"
+                ><iconify-icon
+                  class="text-xl cursor-pointer"
+                  icon="skill-icons:linkedin"
+                ></iconify-icon
+              ></a>
+
+              <a target="_blank" href="https://github.com/MursalinMohmand"
+                ><iconify-icon
+                  class="text-2xl text-black mx-4 cursor-pointer"
+                  icon="mdi:github"
+                ></iconify-icon
+              ></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

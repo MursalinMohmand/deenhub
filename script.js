@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   getData();
 
-  //Tsbih Screen
+  //Tsbih Screen/////////////////////////////////////////////////////////////////////////////
 
   const numUp = document.querySelector("#numUP");
   const numDown = document.querySelector("#numDown");
@@ -177,9 +177,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  //Quiz Screen
+  //Quiz Screen///////////////////////////////////////////////////////////////////////////
 
-  const qtext = document.querySelector("#qText");
+  const qtext = document.querySelector(".qText");
   const quiztext = document.querySelector(".quiztext");
   const options = document.querySelector("#options");
   const resetButton = document.querySelector(".resetButton");
@@ -201,14 +201,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     return array;
   };
-  resetButton.addEventListener("click", () => {
-    loadQuiz();
-    currentIndex = 0;
-    Score = 0;
-    qnumb = 1;
-    prsize = 5;
-    resetButton.classList.add("hidden");
-  });
+  if (resetButton) {
+    resetButton.addEventListener("click", () => {
+      loadQuiz();
+      currentIndex = 0;
+      Score = 0;
+      qnumb = 1;
+      prsize = 5;
+      resetButton.classList.add("hidden");
+    });
+  }
 
   const loadQuiz = async () => {
     const req = await fetch(QuizURL);
@@ -223,7 +225,9 @@ document.addEventListener("DOMContentLoaded", () => {
   function showQuestion() {
     options.innerHTML = "";
 
-    progressBar.style = `width: ${prsize}%`;
+    if (progressBar) {
+      progressBar.style = `width: ${prsize}%`;
+    }
 
     const q = quizData[currentIndex];
 
@@ -233,11 +237,11 @@ document.addEventListener("DOMContentLoaded", () => {
     q.options.forEach((item) => {
       const div = document.createElement("div");
       div.className =
-        "answ w-full shadow-md flex items-center pl-5 gap-5 rounded-md py-3 border-gray-300 border";
+        "answ w-full shadow-md flex cursor-pointer hover:bg-[#1f7a4c70] items-center pl-5 gap-5 rounded-md py-3 border-gray-300 border";
 
       div.innerHTML = `
       <iconify-icon class="text-orange-200 text-xl" icon="material-symbols-light:mosque-outline"></iconify-icon>
-      <p class="text-xl antext text-gray-500">${item}</p>
+      <p class="text-md lg:text-sm text-justify text-gray-500">${item}</p>
     `;
 
       options.appendChild(div);
@@ -287,18 +291,4 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   loadQuiz();
-
-  // const getData = async () => {
-  //   const url = `https://corsproxy.io/?https://nominatim.openstreetmap.org/search?format=json&q=${city}`;
-
-  //   const response = await fetch(url);
-
-  //   const data = await response.json();
-
-  //   lon = data[0].lon;
-  //   lat = data[0].lat;
-
-  //   Adhan();
-  // };
-  // getData();
 });

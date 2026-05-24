@@ -323,18 +323,7 @@
     ],
     "answer": "Treaty of Hudaybiyyah"
   },
-  {
-    "id": 38,
-    "category": "Hadith",
-    "question": "What does the term 'Muttafaqun Alayh' mean when appended to a Hadith citation?",
-    "options": [
-      "Agreed upon by Bukhari and Muslim",
-      "Narrated only by Aisha",
-      "Considered a weak narration",
-      "Transmitted by all six major books"
-    ],
-    "answer": "Agreed upon by Bukhari and Muslim"
-  },
+
   {
     "id": 39,
     "category": "Companions",
@@ -423,18 +412,7 @@
     ],
     "answer": "The Sasanian Persian Empire"
   },
-  {
-    "id": 48,
-    "category": "Hadith",
-    "question": "What is a 'Hadith Qudsi'?",
-    "options": [
-      "A saying of the Prophet containing words revealed by Allah",
-      "A saying compiled exclusively in Jerusalem",
-      "A Hadith narrated only by the four Caliphs",
-      "A weak Hadith with missing narrators"
-    ],
-    "answer": "A saying of the Prophet containing words revealed by Allah"
-  },
+
   {
     "id": 49,
     "category": "Companions",
@@ -1117,17 +1095,5 @@
       "Battle of Tabuk"
     ],
     "answer": "Battle of Uhud"
-  },
-  {
-    "id": 118,
-    "category": "Hadith",
-    "question": "What type of Hadith is deemed 'Mursal'?",
-    "options": [
-      "A narration where a Tabi'i quotes the Prophet directly, omitting the companion",
-      "A narration with two consecutive missing links",
-      "A narration text that contradicts the Quran",
-      "A highly fabricated report"
-    ],
-    "answer": "A narration where a Tabi'i quotes the Prophet directly, omitting the companion"
   }
 ]

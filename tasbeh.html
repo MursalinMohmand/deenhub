@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/style.css" />
-    <title>Document</title>
+    <title>Tasbih</title>
   </head>
   <body>
     <div class="grid grid-cols-12 h-screen bg-white">
@@ -31,13 +31,6 @@
             ></iconify-icon>
           </div>
 
-          <div>
-            <iconify-icon
-              class="text-gray-400"
-              icon="majesticons:book-open"
-            ></iconify-icon>
-          </div>
-
           <a href="AsmaulHusna.html"
             ><div>
               <iconify-icon
@@ -59,7 +52,7 @@
       <!--Left Side NavBar-->
 
       <div
-        class="sm:w-52 left-0 top-0 hidden sm:fixed h-screen bg-white shadow-md"
+        class="sm:w-52 sm:left-0 hidden sm:top-0 sm:block sm:fixed sm:h-screen bg-white shadow-md"
       >
         <div class="flex items-center gap-3 mt-4 ml-4">
           <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
@@ -67,36 +60,45 @@
         </div>
 
         <div class="flex flex-col mt-10 ml-4 gap-4">
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="material-symbols:home-rounded"
-            ></iconify-icon>
-            <p class="text-xl">Home</p>
-          </div>
+          <a href="index.html">
+            <div
+              class="flex text-[#1F7A4D] p-2 rounded-md hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="material-symbols:home-rounded"
+              ></iconify-icon>
+              <p class="text-xl">Home</p>
+            </div>
+          </a>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="hugeicons:tasbih"
-            ></iconify-icon>
-            <p class="text-xl">Tasbih</p>
-          </div>
+          <a href="tasbeh.html"
+            ><div
+              class="flex text-[#1F7A4D] p-2 rounded-md bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="hugeicons:tasbih"
+              ></iconify-icon>
+              <p class="text-xl">Tasbih</p>
+            </div></a
+          >
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="majesticons:book-open"
-            ></iconify-icon>
-            <p class="text-xl">Hadith</p>
-          </div>
+          <a href="AsmaulHusna.html">
+            <div
+              class="flex text-[#1F7A4D] p-2 rounded-md hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="iconoir:flower"
+              ></iconify-icon>
+              <p class="text-xl">Asmaul Husna</p>
+            </div>
+          </a>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon class="text-2xl" icon="iconoir:flower"></iconify-icon>
-            <p class="text-xl">Asmaul Husna</p>
-          </div>
-
-          <div class="flex text-[#1F7A4D] items-center gap-3">
+          <div
+            class="flex lg:hidden p-2 rounded-md hover:bg-[#1f7a4c70] text-[#1F7A4D] items-center gap-3"
+          >
             <iconify-icon
               class="text-2xl"
               icon="fluent:quiz-28-filled"
@@ -104,29 +106,41 @@
             <p class="text-xl">Quiz</p>
           </div>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon class="text-2xl" icon="mdi:about"></iconify-icon>
-            <p class="text-xl">About</p>
-          </div>
+          <a href="about.html"
+            ><div
+              class="flex p-2 rounded-md text-[#1F7A4D] hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon class="text-2xl" icon="mdi:about"></iconify-icon>
+              <p class="text-xl">About</p>
+            </div></a
+          >
         </div>
       </div>
 
       <!--Right Side Div Main View-->
 
       <div class="sm:ml-52 col-span-12">
-        <div class="sm:h-20 flex items-center justify-between pr-10 shadow-sm">
-          <div class="flex py-4 sm:hidden items-center gap-3 mt-4 ml-4">
-            <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
-            <h1 class="text-2xl text-[#1F7A4D]">DeenHub</h1>
-          </div>
+        <div class="fixed top-0 w-full bg-white">
+          <div
+            class="sm:h-20 flex items-center justify-between pr-10 shadow-sm"
+          >
+            <div class="flex py-4 sm:hidden items-center gap-3 mt-4 ml-4">
+              <img
+                class="h-10 bg-transparent"
+                src="./assets/image.png"
+                alt=""
+              />
+              <h1 class="text-2xl text-[#1F7A4D]">DeenHub</h1>
+            </div>
 
-          <a class="sm:hidden" href="about.html"
-            ><div>
-              <iconify-icon
-                class="text-2xl text-[#1F7A4D]"
-                icon="mdi:about"
-              ></iconify-icon></div
-          ></a>
+            <a class="sm:hidden" href="about.html"
+              ><div>
+                <iconify-icon
+                  class="text-2xl text-[#1F7A4D]"
+                  icon="mdi:about"
+                ></iconify-icon></div
+            ></a>
+          </div>
         </div>
 
         <div class="flex items-center justify-center h-[80%]">

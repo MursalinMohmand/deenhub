@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/style.css" />
-    <title>Document</title>
+    <title>Deen Hub</title>
   </head>
   <body>
     <div class="grid grid-cols-12 h-screen bg-white">
@@ -28,13 +28,6 @@
                 icon="hugeicons:tasbih"
               ></iconify-icon></div
           ></a>
-
-          <div>
-            <iconify-icon
-              class="text-gray-400"
-              icon="majesticons:book-open"
-            ></iconify-icon>
-          </div>
 
           <a href="AsmaulHusna.html"
             ><div>
@@ -65,36 +58,45 @@
         </div>
 
         <div class="flex flex-col mt-10 ml-4 gap-4">
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="material-symbols:home-rounded"
-            ></iconify-icon>
-            <p class="text-xl">Home</p>
-          </div>
+          <a href="index.html">
+            <div
+              class="flex text-[#1F7A4D] p-2 rounded-md bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="material-symbols:home-rounded"
+              ></iconify-icon>
+              <p class="text-xl">Home</p>
+            </div>
+          </a>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="hugeicons:tasbih"
-            ></iconify-icon>
-            <p class="text-xl">Tasbih</p>
-          </div>
+          <a href="tasbeh.html"
+            ><div
+              class="flex text-[#1F7A4D] p-2 rounded-md hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="hugeicons:tasbih"
+              ></iconify-icon>
+              <p class="text-xl">Tasbih</p>
+            </div></a
+          >
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon
-              class="text-2xl"
-              icon="majesticons:book-open"
-            ></iconify-icon>
-            <p class="text-xl">Hadith</p>
-          </div>
+          <a href="AsmaulHusna.html">
+            <div
+              class="flex text-[#1F7A4D] p-2 rounded-md hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon
+                class="text-2xl"
+                icon="iconoir:flower"
+              ></iconify-icon>
+              <p class="text-xl">Asmaul Husna</p>
+            </div>
+          </a>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon class="text-2xl" icon="iconoir:flower"></iconify-icon>
-            <p class="text-xl">Asmaul Husna</p>
-          </div>
-
-          <div class="flex text-[#1F7A4D] items-center gap-3">
+          <div
+            class="flex lg:hidden p-2 rounded-md hover:bg-[#1f7a4c70] text-[#1F7A4D] items-center gap-3"
+          >
             <iconify-icon
               class="text-2xl"
               icon="fluent:quiz-28-filled"
@@ -102,39 +104,51 @@
             <p class="text-xl">Quiz</p>
           </div>
 
-          <div class="flex text-[#1F7A4D] items-center gap-3">
-            <iconify-icon class="text-2xl" icon="mdi:about"></iconify-icon>
-            <p class="text-xl">About</p>
-          </div>
+          <a href="about.html"
+            ><div
+              class="flex p-2 rounded-md text-[#1F7A4D] hover:bg-[#1f7a4c70] items-center gap-3"
+            >
+              <iconify-icon class="text-2xl" icon="mdi:about"></iconify-icon>
+              <p class="text-xl">About</p>
+            </div></a
+          >
         </div>
       </div>
 
       <!--Right Side Div Main View-->
 
       <div class="sm:ml-52 col-span-12">
-        <div class="sm:h-20 flex items-center justify-between pr-10 shadow-sm">
-          <div class="flex py-4 sm:hidden items-center gap-3 mt-4 ml-4">
-            <img class="h-10 bg-transparent" src="./assets/image.png" alt="" />
-            <h1 class="text-2xl text-[#1F7A4D]">DeenHub</h1>
-          </div>
+        <div class="fixed top-0 w-full bg-white">
+          <div
+            class="sm:h-20 flex items-center justify-between pr-10 shadow-sm"
+          >
+            <div class="flex py-4 sm:hidden items-center gap-3 mt-4 ml-4">
+              <img
+                class="h-10 bg-transparent"
+                src="./assets/image.png"
+                alt=""
+              />
+              <h1 class="text-2xl text-[#1F7A4D]">DeenHub</h1>
+            </div>
 
-          <a class="sm:hidden" href="about.html"
-            ><div>
-              <iconify-icon
-                class="text-2xl text-[#1F7A4D]"
-                icon="mdi:about"
-              ></iconify-icon></div
-          ></a>
+            <a class="sm:hidden" href="about.html"
+              ><div>
+                <iconify-icon
+                  class="text-2xl text-[#1F7A4D]"
+                  icon="mdi:about"
+                ></iconify-icon></div
+            ></a>
+          </div>
         </div>
-        <div class="p-4">
+        <div class="p-4 mt-20">
           <div class="sm:flex items-center justify-between p-4">
             <p class="sm:text-2xl hidden sm:block font-semibold">
               Prayer Times
             </p>
 
-            <div class="flex gap-3">
+            <div class="grid grid-cols-2 gap-3">
               <div
-                class="sm:flex h-24 hidden gap-5 px-6 py-2 items-center rounded-md shadow-sm"
+                class="sm:flex w-full hidden gap-4 py-2 px-3 items-center rounded-md shadow-sm"
               >
                 <iconify-icon
                   class="sm:text-xl text-[#1F7A4D]"
@@ -142,12 +156,12 @@
                 >
                 </iconify-icon>
                 <div>
-                  <p id="time" class="font-semibold text-[#1F7A4D]">Date</p>
+                  <p id="time" class="font-semibold text-[#1F7A4D]">00:00:00</p>
                 </div>
               </div>
 
               <div
-                class="flex w-full gap-4 px-6 py-2 items-center rounded-md shadow-sm"
+                class="col-span-2 sm:col-span-1 flex px-3 gap-4 py-2 items-center rounded-md shadow-sm"
               >
                 <iconify-icon class="sm:text-xl text-[#1F7A4D]" icon="uiw:date">
                 </iconify-icon>
@@ -162,10 +176,10 @@
 
           <div class="grid md:gap-2 md:grid-cols-4">
             <!--Child 1-->
-            <div class="md:col-span-3">
+            <div class="col-span-4 lg:col-span-3">
               <div class="w-full rounded-md">
                 <table
-                  class="w-full shadow-md rounded-xl table-fixed text-center"
+                  class="w-full h-110 shadow-md rounded-xl table-fixed text-center"
                 >
                   <thead class="text-white bg-[#1F7A4D] rounded-md font-normal">
                     <tr class="h-12 sm:h-20">
@@ -181,48 +195,31 @@
 
             <!--Child 2-->
 
-            <div class="h-full hidden sm:block rounded-md shadow-md">
+            <div class="hidden lg:h-110 lg:block rounded-md shadow-md">
               <div
                 class="flex text-[#1F7A4D] border-b border-gray-300 justify-between p-4"
               >
-                <p>Questions</p>
-                <span>1/10</span>
+                <iconify-icon
+                  class="text-xl"
+                  icon="hugeicons:quiz-02"
+                ></iconify-icon>
+                <p><span id="crq">1</span> of 20</p>
               </div>
 
-              <div class="p-4">
-                <h1 class="text-lg">Who is the Creator of Universe ?</h1>
+              <div class="p-4 quiztext">
+                <h1 class="qText">Who is the Creator of Universe ?</h1>
 
-                <div class="grid grid-cols-1 mt-8 gap-3">
-                  <div
-                    class="py-2 rounded-md cursor-pointer hover:bg-[#1f7a4c58] hover:text-white shadow-sm px-4"
-                  >
-                    A : Allah
+                <div class="hidden resetButton">
+                  <div class="flex justify-center py-4">
+                    <button
+                      class="restart w-full py-2 mx-4 cursor-pointer hover:bg-[#1f7a4c73] rounded-md text-white bg-[#1F7A4D]"
+                    >
+                      Restart
+                    </button>
                   </div>
-
-                  <div
-                    class="py-2 rounded-md cursor-pointer hover:bg-[#1f7a4c58] hover:text-white shadow-sm px-4"
-                  >
-                    A : Allah
-                  </div>
-
-                  <div
-                    class="py-2 rounded-md cursor-pointer hover:bg-[#1f7a4c58] hover:text-white shadow-sm px-4"
-                  >
-                    A : Allah
-                  </div>
-
-                  <div
-                    class="py-2 rounded-md cursor-pointer hover:bg-[#1f7a4c58] hover:text-white shadow-sm px-4"
-                  >
-                    A : Allah
-                  </div>
-
-                  <button
-                    class="shadow-sm py-2 bg-[#1F7A4D] rounded-md text-white"
-                  >
-                    Submit
-                  </button>
                 </div>
+
+                <div id="options" class="py-4 flex flex-col gap-y-3"></div>
               </div>
             </div>
           </div>
